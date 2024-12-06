@@ -3,3 +3,6 @@ MTL-E/.ipynb_checkpoints
 MTL-E/Dataset
 
 lm-evaluation-harness
+
+# In STL Folder
+STL/__pycache__
