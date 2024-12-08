@@ -4,7 +4,7 @@ import os
 
 def save_model(model_name, multitask_model):
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
-    for task_name in ["bias", "stereotype"]:
+    for task_name in ["bias_2", "stereotype"]:
         # Create the directory if it doesn't exist
         save_dir = f"./{task_name}_model/{model_name}"
         os.makedirs(save_dir, exist_ok=True)

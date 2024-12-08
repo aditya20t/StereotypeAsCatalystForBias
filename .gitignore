@@ -1,8 +1,15 @@
 # IN MTL-E Folder
 MTL-E/.ipynb_checkpoints
 MTL-E/Dataset
+MTL-E/temp.ipynb
+MTL-E/results
+MTL-E/output
+MTL-E/__pycache__
+MTL-E/util
 
 lm-evaluation-harness
 
 # In STL Folder
 STL/__pycache__
+STL/Dataset
+STL/SavedModels

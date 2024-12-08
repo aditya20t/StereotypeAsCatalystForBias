@@ -65,13 +65,27 @@ def main():
     # 'text' is found. You can easily tweak this behavior (see below).
 
     dataset_dict = {
-        "bias": load_dataset(
+        # "bias_1": load_dataset(
+        #     "multitask_dataloader.py",
+        #     data_files={
+        #         "train": "Dataset/ToxicBias/train.csv",
+        #         "validation": "Dataset/ToxicBias/val.csv",
+        #     },
+        # ),
+        "bias_2": load_dataset(
             "multitask_dataloader.py",
             data_files={
-                "train": "Dataset/ToxicBias/train.csv",
-                "validation": "Dataset/ToxicBias/val.csv",
+                "train": "Dataset/BABE/train.csv",
+                "validation": "Dataset/BABE/val.csv",
             },
         ),
+        # "bias_3": load_dataset(
+        #     "multitask_dataloader.py",
+        #     data_files={
+        #         "train": "Dataset/BEAD/train.csv",
+        #         "validation": "Dataset/BEAD/val.csv",
+        #     },
+        # ),
         "stereotype": load_dataset(
             "multitask_dataloader.py",
             data_files={
@@ -96,7 +110,7 @@ def main():
     model_names = [args.model_name_or_path] * 2
     config_files = model_names
 
-    for idx, task_name in enumerate(["bias", "stereotype"]):
+    for idx, task_name in enumerate(["bias_2", "stereotype"]):
         model_file = Path(f"./{task_name}_model/pytorch_model.bin")
         config_file = Path(f"./{task_name}_model/config.json")
         if model_file.is_file():
@@ -110,28 +124,28 @@ def main():
     multitask_model = MultitaskModel.create(
         model_name=model_names[0],
         model_type_dict={
-            "bias": transformers.AutoModelForSequenceClassification,
+            "bias_2": transformers.AutoModelForSequenceClassification,
             "stereotype": transformers.AutoModelForSequenceClassification,
         },
         model_config_dict={
-            "bias": transformers.AutoConfig.from_pretrained(
+            "bias_2": transformers.AutoConfig.from_pretrained(
                 model_names[0], num_labels=2
             ),
             "stereotype": transformers.AutoConfig.from_pretrained(
                 model_names[1], num_labels=2
             )
         },
-        loss_weights={"bias": 0.5, "stereotype": 0.5}
+        loss_weights={"bias_2": 0.5, "stereotype": 0.5}
     )
 
 
     convert_func_dict = {
-        "bias": convert_to_features,
+        "bias_2": convert_to_features,
         "stereotype": convert_to_features
     }
 
     columns_dict = {
-        "bias": ["input_ids", "attention_mask", "labels"],
+        "bias_2": ["input_ids", "attention_mask", "labels"],
         "stereotype": ["input_ids", "attention_mask", "labels"],
     }
 
