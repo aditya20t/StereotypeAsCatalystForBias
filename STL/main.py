@@ -20,6 +20,9 @@ args = parseArguments()
 # Import dataset
 df_train, df_val, df_test = get_dataset(args.dataset)
 print(df_train.head())
+print('Train:', df_train.shape)
+print('Validation:', df_val.shape)
+print('Test:', df_test.shape)
 
 # Define device
 device = torch.device(args.device if torch.cuda.is_available() else 'cpu')

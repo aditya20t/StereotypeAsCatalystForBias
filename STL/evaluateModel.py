@@ -10,7 +10,7 @@ def evaluate_model(model, dataloader, val=False):
     for batch in dataloader:
         input_ids = batch[0]
         attention_mask = batch[1]
-        labels = batch[2]
+        labels = batch[2].long()
 
         with torch.no_grad():
             loss, logits = model(

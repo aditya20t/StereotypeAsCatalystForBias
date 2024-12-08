@@ -8,7 +8,9 @@ def encode_sentences(sentences, tokenizer):
         encoded_dict = tokenizer.encode_plus(
             sent,
             add_special_tokens=True,
-            max_length=64,
+            max_length=128,
+            truncation=True,
+            padding='max_length',
             pad_to_max_length=True,
             return_attention_mask=True,
             return_tensors='pt'

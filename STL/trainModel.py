@@ -1,6 +1,7 @@
 from transformers import AdamW
 from tqdm import tqdm
 from evaluateModel import evaluate_model
+from saveModel import save_model
 
 def train_model(args, model, training_dataloader, validation_dataloader, device, scaler):
     model.train()
@@ -23,7 +24,7 @@ def train_model(args, model, training_dataloader, validation_dataloader, device,
             # Extract the batch
             input_ids = batch[0]
             attention_mask = batch[1]
-            labels = batch[2]
+            labels = batch[2].long()
 
             # Zero the gradients
             optimizer.zero_grad()
@@ -60,6 +61,7 @@ def train_model(args, model, training_dataloader, validation_dataloader, device,
         print(confusion_matrix)
         print('---------------------------------')
 
+    save_model(args.model, model)
     return model
 
 
