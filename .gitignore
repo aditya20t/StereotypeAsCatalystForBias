@@ -6,6 +6,9 @@ MTL-E/results
 MTL-E/output
 MTL-E/__pycache__
 MTL-E/util
+MTL-E/bias_2_model
+MTL-E/stereotype_model
+*.csv
 
 lm-evaluation-harness
 
@@ -13,3 +16,5 @@ lm-evaluation-harness
 STL/__pycache__
 STL/Dataset
 STL/SavedModels
+
+Best_Models
