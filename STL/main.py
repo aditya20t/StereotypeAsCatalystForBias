@@ -23,6 +23,9 @@ print(df_train.head())
 print('Train:', df_train.shape)
 print('Validation:', df_val.shape)
 print('Test:', df_test.shape)
+print('Train Value Counts: ', df_train.labels.value_counts())
+print('Validation Value Counts: ', df_val.labels.value_counts())
+print('Test Value Counts: ', df_test.labels.value_counts())
 
 # Define device
 device = torch.device(args.device if torch.cuda.is_available() else 'cpu')
