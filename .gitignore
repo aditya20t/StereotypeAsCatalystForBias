@@ -18,3 +18,11 @@ STL/Dataset
 STL/SavedModels
 
 Best_Models
+LLM_Finetuning/STL_LLM/ToxicBias_classification
+LLM_Finetuning/Dataset
+LLM_Finetuning/STL_LLM/STL_Models
+LLM_Finetuning/STL_LLM/BABE_classification
+LLM_Finetuning/STL_LLM/BEAD_classification
+LLM_Finetuning/STL_LLM/StereoSet_classification
+LLM_Finetuning/MTL_LLM/MTL_Models
+__pycache__
