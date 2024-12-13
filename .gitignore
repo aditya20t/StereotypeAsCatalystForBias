@@ -25,6 +25,7 @@ LLM_Finetuning/STL_LLM/BABE_classification
 LLM_Finetuning/STL_LLM/BEAD_classification
 LLM_Finetuning/STL_LLM/StereoSet_classification
 LLM_Finetuning/MTL_LLM/MTL_Models
+LLM_Finetuning/MTL_LLM/Images
 __pycache__
 
 *.png
