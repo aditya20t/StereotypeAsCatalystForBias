@@ -23,5 +23,5 @@ def plot_graphs(train_losses, val_losses, model_save_name, batch_size, learning_
     plt.legend()
 
     plt.tight_layout()
-    plt.savefig(f'{model_save_name}_B{batch_size}_lr{learning_rate}_ep{epochs}.png')  # Save the plot as an image
+    plt.savefig(f'Images/{model_save_name}_B{batch_size}_lr{learning_rate}_ep{epochs}.png')  # Save the plot as an image
     plt.show()
