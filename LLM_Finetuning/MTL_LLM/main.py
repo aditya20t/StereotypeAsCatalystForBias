@@ -102,3 +102,7 @@ trained_model = trainModel(
     scaler, 
     device
 )
+
+# Evaluate of Test Set
+print("Evaluating on test set...")
+results = evaluate(args, trained_model, test_loader, device, threshold=args.threshold)
