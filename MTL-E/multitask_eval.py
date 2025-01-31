@@ -9,7 +9,7 @@ def multitask_eval_fn(multitask_model, model_name, features_dict, batch_size=8):
     device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     multitask_model.to(device)  # Ensure the model is on the correct device
 
-    for task_name in ["bias_2", "stereotype"]:
+    for task_name in ["bias", "stereotype"]:
         true_list = []
         pred_list = []
         val_len = len(features_dict[task_name]["validation"])

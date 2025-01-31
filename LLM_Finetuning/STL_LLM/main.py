@@ -29,7 +29,7 @@ args = parseArguments()
 device = torch.device(args.device if torch.cuda.is_available() else 'cpu')
 
 # Import dataset
-df_train, df_val, df_test = get_dataset(args.dataset)
+df_train, df_val, df_test = get_dataset(args, args.dataset)
 print(df_train.head())
 print('Train:', df_train.shape)
 print('Validation:', df_val.shape)
@@ -229,7 +229,7 @@ def make_predictions(model,df_test):
 model_save_name = args.model.split('/')[-1]
 
 make_predictions(model,df_test)
-torch.save(model.state_dict(), f'STL_Models/{model_save_name}.pt')
+torch.save(model.state_dict(), f'Models/STL_Models/{model_save_name}.pt')
 print(f"Model saved as {model_save_name}.pt")
 
 get_performance_metrics(df_test)

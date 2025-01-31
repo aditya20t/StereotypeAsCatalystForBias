@@ -12,8 +12,11 @@ MTL-E/stereotype_model
 
 lm-evaluation-harness
 
+bias_model
+Models
+__pycache__
 # In STL Folder
-STL/__pycache__
+# STL/__pycache__
 STL/Dataset
 STL/SavedModels
 

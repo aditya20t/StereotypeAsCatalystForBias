@@ -13,6 +13,7 @@ def parseArguments():
     parser.add_argument('--weight_decay', default=1e-4, type=float, help='Weight decay')
     parser.add_argument('--device', default='cuda', type=str, help='Device')
     parser.add_argument('--threshold', default=0.5, type=float, help='Threshold')
+    parser.add_argument('--task', default='bias', type=str, help='Task name')
 
     # Parse the arguments
     args = parser.parse_args()

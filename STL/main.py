@@ -18,7 +18,7 @@ set_seed(42)
 args = parseArguments()
 
 # Import dataset
-df_train, df_val, df_test = get_dataset(args.dataset)
+df_train, df_val, df_test = get_dataset(args, args.dataset)
 print(df_train.head())
 print('Train:', df_train.shape)
 print('Validation:', df_val.shape)

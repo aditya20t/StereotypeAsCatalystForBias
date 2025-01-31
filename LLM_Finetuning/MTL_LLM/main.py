@@ -24,8 +24,8 @@ device = torch.device(args.device if torch.cuda.is_available() else 'cpu')
 scaler = GradScaler()
 
 # Import dataset
-df_train_1, df_val_1, df_test_1 = get_dataset(args.dataset_1)
-df_train_2, df_val_2, df_test_2 = get_dataset(args.dataset_2)
+df_train_1, df_val_1, df_test_1 = get_dataset(args.dataset_1, args.task_1)
+df_train_2, df_val_2, df_test_2 = get_dataset(args.dataset_2, args.task_2)
 
 # Print the stats of the dataset
 print('Shape of dataset_1 train, val and test : ', df_train_1.shape, df_val_1.shape, df_test_1.shape)

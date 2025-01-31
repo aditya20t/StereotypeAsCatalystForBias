@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # define the load dataset 
-def get_dataset(dataset_name):
+def get_dataset(args, dataset_name):
     # StereoSet and ToxicBias dataset
     if(dataset_name in ['StereoSet', 'ToxicBias']):
         df = load_dataset(f'cfilt/{dataset_name}')
@@ -25,4 +25,11 @@ def get_dataset(dataset_name):
         df_train = pd.read_csv('Dataset/BEAD/train.csv')
         df_val = pd.read_csv('Dataset/BEAD/val.csv')
         df_test = pd.read_csv('Dataset/BEAD/test.csv')
+        return df_train, df_val, df_test
+    
+    # Load the StereoBias dataset
+    elif(dataset_name == 'StereoBias'):
+        df_train = pd.read_csv(f'Dataset/StereoBias/{args.task}/train.csv')
+        df_val = pd.read_csv(f'Dataset/StereoBias/{args.task}/val.csv')
+        df_test = pd.read_csv(f'Dataset/StereoBias/{args.task}/test.csv')
         return df_train, df_val, df_test

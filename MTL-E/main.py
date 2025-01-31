@@ -4,7 +4,7 @@ import nltk
 import numpy as np
 import os
 import sys
-from datasets import load_dataset, load_metric
+from datasets import load_dataset
 from torch.utils.data.dataloader import DataLoader
 from tqdm.auto import tqdm
 from tqdm import tqdm as tqdm1
@@ -65,32 +65,46 @@ def main():
     # 'text' is found. You can easily tweak this behavior (see below).
 
     dataset_dict = {
-        # "bias_1": load_dataset(
-        #     "multitask_dataloader.py",
-        #     data_files={
-        #         "train": "Dataset/ToxicBias/train.csv",
-        #         "validation": "Dataset/ToxicBias/val.csv",
-        #     },
-        # ),
-        "bias_2": load_dataset(
+        "bias": load_dataset(
             "multitask_dataloader.py",
             data_files={
-                "train": "Dataset/BABE/train.csv",
-                "validation": "Dataset/BABE/val.csv",
+                "train": "Dataset/ToxicBias/train.csv",
+                "validation": "Dataset/ToxicBias/val.csv",
             },
         ),
-        # "bias_3": load_dataset(
+        # "bias": load_dataset(
+        #     "multitask_dataloader.py",
+        #     data_files={
+        #         "train": "Dataset/BABE/train.csv",
+        #         "validation": "Dataset/BABE/val.csv",
+        #     },
+        # ),
+        # "bias": load_dataset(
         #     "multitask_dataloader.py",
         #     data_files={
         #         "train": "Dataset/BEAD/train.csv",
         #         "validation": "Dataset/BEAD/val.csv",
         #     },
         # ),
+        # "bias": load_dataset(
+        #     "multitask_dataloader.py",
+        #     data_files={
+        #         "train": "Dataset/StereoBias/bias/train.csv",
+        #         "validation": "Dataset/StereoBias/bias/val.csv",
+        #     },
+        # ),
+        # "stereotype": load_dataset(
+        #     "multitask_dataloader.py",
+        #     data_files={
+        #         "train": "Dataset/StereoSet/train.csv",
+        #         "validation": "Dataset/StereoSet/val.csv",
+        #     },
+        # ),
         "stereotype": load_dataset(
             "multitask_dataloader.py",
             data_files={
-                "train": "Dataset/StereoSet/train.csv",
-                "validation": "Dataset/StereoSet/val.csv",
+                "train": "Dataset/StereoBias/stereotype/train.csv",
+                "validation": "Dataset/StereoBias/stereotype/val.csv",
             },
         ),
         # "sentiment": load_dataset(
@@ -110,7 +124,7 @@ def main():
     model_names = [args.model_name_or_path] * 2
     config_files = model_names
 
-    for idx, task_name in enumerate(["bias_2", "stereotype"]):
+    for idx, task_name in enumerate(["bias", "stereotype"]):
         model_file = Path(f"./{task_name}_model/pytorch_model.bin")
         config_file = Path(f"./{task_name}_model/config.json")
         if model_file.is_file():
@@ -124,28 +138,28 @@ def main():
     multitask_model = MultitaskModel.create(
         model_name=model_names[0],
         model_type_dict={
-            "bias_2": transformers.AutoModelForSequenceClassification,
+            "bias": transformers.AutoModelForSequenceClassification,
             "stereotype": transformers.AutoModelForSequenceClassification,
         },
         model_config_dict={
-            "bias_2": transformers.AutoConfig.from_pretrained(
+            "bias": transformers.AutoConfig.from_pretrained(
                 model_names[0], num_labels=2
             ),
             "stereotype": transformers.AutoConfig.from_pretrained(
                 model_names[1], num_labels=2
             )
         },
-        loss_weights={"bias_2": 0.6, "stereotype": 0.4}
+        loss_weights={"bias": 0.6, "stereotype": 0.4}
     )
 
 
     convert_func_dict = {
-        "bias_2": convert_to_features,
+        "bias": convert_to_features,
         "stereotype": convert_to_features
     }
 
     columns_dict = {
-        "bias_2": ["input_ids", "attention_mask", "labels"],
+        "bias": ["input_ids", "attention_mask", "labels"],
         "stereotype": ["input_ids", "attention_mask", "labels"],
     }
 
@@ -184,7 +198,7 @@ def main():
         args=transformers.TrainingArguments(
             output_dir=args.output_dir,
             overwrite_output_dir=True,
-            learning_rate=3e-5,
+            learning_rate=1e-5,
             do_train=True,
             num_train_epochs=args.num_train_epochs,
             per_device_train_batch_size=args.per_device_train_batch_size,

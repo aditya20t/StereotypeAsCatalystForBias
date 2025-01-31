@@ -15,6 +15,8 @@ def parseArguments():
     parser.add_argument('--device', default='cuda', type=str, help='Device')
     parser.add_argument('--threshold', default=0.5, type=float, help='Threshold')
     parser.add_argument('--alpha', default=0.5, type=float, help='Weightage to bias')
+    parser.add_argument('--task_1', type=str, help='Task 1 name')
+    parser.add_argument('--task_2', type=str, help='Task 2 name')
 
     # Parse the arguments
     args = parser.parse_args()
