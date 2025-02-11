@@ -1,13 +1,13 @@
 # IN MTL-E Folder
-MTL-E/.ipynb_checkpoints
-MTL-E/Dataset
-MTL-E/temp.ipynb
-MTL-E/results
-MTL-E/output
-MTL-E/__pycache__
-MTL-E/util
-MTL-E/bias_2_model
-MTL-E/stereotype_model
+Encoder_Models/MTL-E/.ipynb_checkpoints
+Encoder_Models/MTL-E/Dataset
+Encoder_Models/MTL-E/temp.ipynb
+Encoder_Models/MTL-E/results
+Encoder_Models/MTL-E/output
+Encoder_Models/MTL-E/__pycache__
+Encoder_Models/MTL-E/util
+Encoder_Models/MTL-E/bias_2_model
+Encoder_Models/MTL-E/stereotype_model
 *.csv
 
 lm-evaluation-harness
@@ -17,8 +17,8 @@ Models
 __pycache__
 # In STL Folder
 # STL/__pycache__
-STL/Dataset
-STL/SavedModels
+Encoder_Models/STL/Dataset
+Encoder_Models/STL/SavedModels
 
 Best_Models
 LLM_Finetuning/STL_LLM/ToxicBias_classification
@@ -31,4 +31,12 @@ LLM_Finetuning/MTL_LLM/MTL_Models
 LLM_Finetuning/MTL_LLM/Images
 __pycache__
 
+
+Dataset/
 *.png
+
+SavedModels
+
+Analyze.ipynb
+StereoBias_classification
+StereoBias_classification_logs
