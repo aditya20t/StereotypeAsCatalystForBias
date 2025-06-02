@@ -37,4 +37,4 @@ def evaluate_model(model, dataloader, val=False):
     confusion_matrix = get_confusion_matrix(predictions, true_labels)
     classification_report = get_classification_report(predictions, true_labels, dict=val)
 
-    return avg_val_loss, confusion_matrix, classification_report
+    return avg_val_loss, confusion_matrix, classification_report, predictions, true_labels

@@ -1,6 +1,6 @@
 # Import libraries
 import torch
-from dataset import get_dataset
+from Dataset import get_dataset
 from parse import parseArguments
 from transformers import set_seed
 from importModel import get_model

@@ -9,7 +9,7 @@ from model import get_model
 from transformers import set_seed
 from tokenizeDataset import tokenizeDataset
 from dataCollator import get_dataloader
-from evaluate import evaluate
+from evaluateModel import evaluate
 from trainModel import trainModel
 
 # Set random seed

@@ -229,7 +229,7 @@ def make_predictions(model,df_test):
 model_save_name = args.model.split('/')[-1]
 
 make_predictions(model,df_test)
-torch.save(model.state_dict(), f'Models/STL_Models/{model_save_name}.pt')
+torch.save(model.state_dict(), f'Models/STL_Models/{model_save_name}_{args.task}.pt')
 print(f"Model saved as {model_save_name}.pt")
 
 get_performance_metrics(df_test)

@@ -29,7 +29,7 @@ def get_dataset(dataset_name, task=None):
     
     # Load the StereoBias dataset
     elif(dataset_name == 'StereoBias'):
-        df_train = pd.read_csv(f'../Dataset/StereoBias/{task}/train.csv')
-        df_val = pd.read_csv(f'../Dataset/StereoBias/{task}/val.csv')
-        df_test = pd.read_csv(f'../Dataset/StereoBias/{task}/test.csv')
+        df_train = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/{task}/train.csv')
+        df_val = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/{task}/val.csv')
+        df_test = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/{task}/test.csv')
         return df_train, df_val, df_test

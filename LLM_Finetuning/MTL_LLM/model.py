@@ -53,8 +53,8 @@ class MultiTaskModel(torch.nn.Module):
                 torch.nn.Sigmoid()
             )
 
-            bias_class_weights = class_weights[:2]
-            stereotype_class_weights = class_weights[2:]
+            # bias_class_weights = class_weights[:2]
+            # stereotype_class_weights = class_weights[2:]
 
             self.bias_loss_fn = torch.nn.BCELoss()  # Common loss function for classification tasks
             self.stereotype_loss_fn = torch.nn.BCELoss()  # Common loss function for classification tasks
@@ -113,6 +113,6 @@ class MultiTaskModel(torch.nn.Module):
 
 
 # define the model function
-def get_model(model_name, quantization_config, lora_config, class_weights):
+def get_model(model_name, quantization_config, lora_config, class_weights=None):
      model = MultiTaskModel(model_name, quantization_config, lora_config, class_weights)
      return model
