@@ -12,7 +12,7 @@ Encoder_Models/MTL-E/stereotype_model
 
 lm-evaluation-harness
 
-bias_model
+bias_modelabout:blank#blocked
 Models
 __pycache__
 # In STL Folder
@@ -32,7 +32,7 @@ LLM_Finetuning/MTL_LLM/Images
 __pycache__
 
 
-Dataset/
+Dataset
 *.png
 
 SavedModels
@@ -40,3 +40,4 @@ SavedModels
 Analyze.ipynb
 StereoBias_classification
 StereoBias_classification_logs
+*.ipynb

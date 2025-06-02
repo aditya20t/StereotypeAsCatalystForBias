@@ -61,7 +61,7 @@ def train_model(args, model, training_dataloader, validation_dataloader, device,
         print(confusion_matrix)
         print('---------------------------------')
 
-    save_model(args.model, args.dataset, model)
+    save_model(args.task, args.model, args.dataset, model)
     return model
 
 

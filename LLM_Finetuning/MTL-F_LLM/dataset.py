@@ -16,9 +16,9 @@ def add_labels(df):
 # define the load dataset 
 def get_dataset():
     # Load the StereoBias dataset
-    df_train = pd.read_csv(f'../Dataset/StereoBias/train.csv')
-    df_val = pd.read_csv(f'../Dataset/StereoBias/val.csv')
-    df_test = pd.read_csv(f'../Dataset/StereoBias/test.csv')
+    df_train = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/train.csv')
+    df_val = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/val.csv')
+    df_test = pd.read_csv(f'LLM_Finetuning/Dataset/StereoBias/test.csv')
 
     # Pre-process the dataset
     # Define the column label (bias, stereotype) into 4 classes
