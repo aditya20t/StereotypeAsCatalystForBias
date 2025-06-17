@@ -8,7 +8,30 @@ Encoder_Models/MTL-E/__pycache__
 Encoder_Models/MTL-E/util
 Encoder_Models/MTL-E/bias_2_model
 Encoder_Models/MTL-E/stereotype_model
-*.csv
+
+Encoder_Models/*.csv
+LLM_Finetuning/*.csv
+
+.gitignore
+
+Encoder_Models/STL/albert-xxlarge-v2_bias.csv
+Encoder_Models/STL/albert-xxlarge-v2_stereotype.csv
+Encoder_Models/STL/bert-large-uncased_bias.csv
+Encoder_Models/STL/bert-large-uncased_stereotype.csv
+Encoder_Models/STL/roberta-large_bias.csv
+Encoder_Models/STL/roberta-large_stereotype.csv
+LLM_Finetuning/MTL-F_LLM/Llama-3.1-8B.csv
+LLM_Finetuning/MTL-F_LLM/Mistral-7B-v0.3.csv
+LLM_Finetuning/MTL-F_LLM/gemma-7b.csv
+LLM_Finetuning/MTL_LLM/Mistral-7B-v0.3_predictions.csv
+LLM_Finetuning/MTL_LLM/gemma-7b_predictions.csv
+LLM_Finetuning/MTL_LLM/llama-3.1_predictions.csv
+LLM_Finetuning/STL_LLM/Llama-3.1-8B_bias.csv
+LLM_Finetuning/STL_LLM/Llama-3.1-8B_stereotype.csv
+LLM_Finetuning/STL_LLM/Mistral-7B-v0.3_bias.csv
+LLM_Finetuning/STL_LLM/Mistral-7B-v0.3_stereotype.csv
+LLM_Finetuning/STL_LLM/gemma-7b_bias.csv
+LLM_Finetuning/STL_LLM/gemma-7b_stereotype.csv
 
 lm-evaluation-harness
 

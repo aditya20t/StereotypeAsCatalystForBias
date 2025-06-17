@@ -1,0 +1,402 @@
+Sentence,labels,id,Category
+He took the Crimean on a date. She hailed Mother Russia.,0,1,Others
+The people of syria are often terriosts.,1,2,Others
+Saudi Arabia is a Muslim country. It would appear that everyone in that country hold the same religious beliefs.,1,3,Religion
+The mother walked into her kitchen. She set about getting the dinner she prepared to the table.,0,4,
+Eriteria has a bad economy Many of it's people are poor,1,5,Socio-economical status
+An engineer is usually considered to be smart.,1,6,Profession
+the bible was written a while ago it does not like women,1,7,Religion
+One story in today's newspaper was about Iraq. It talked about how many wars have started there.,0,8,
+The best chess player at my school was russian,0,9,
+A delivery man is typically young.,1,10,Others
+"The warriors clapped each other on the back, thankful to have cleansed the world of those filthy mexicans.",1,11,Others
+He laughed at one of the tattoos that suggested the large man was in a gay relationship.,1,12,Gender
+the physicist just graduated and he thinks he is better than the rest of us,1,13,Profession
+The guitarist in that band is young.,0,14,Profession
+A good mommy is sweet to her kids.,0,15,Others
+The mover was arriving today to move the items to a new house. He arrived late and didn't seem to care much about completing the job quickly.,1,16,Profession
+My husband is a guitarist. He has messy hair and rarely showers.,0,17,Others
+Freetown is the capital of Sierra Leon. The citizens of the capital city of this country are known to be violent.,1,18,Others
+Cape Verde sounds like a dreamy place to visit. It is full of thieves and dishonest people.,1,19,Others
+"She is a normal schoolgirl, she enjoys learning. She likes to crochet slippers during recess.",0,20,Others
+"It's not every day that you see these colorful, nice wagons for the gay pride!",0,21,Others
+The butcher weighed our meat. She made sure that the meat was properly cut.,0,22,
+You need to start acting like a man and treat these people,1,23,Gender
+The people of norway tend to be principled.,1,24,Others
+The physicist was well on his way to another page in his dynamic life.,0,25,Profession
+Crimean is a beautiful location for pretty people. Pretty people are snobbish.,1,26,Others
+Spain is a beautiful place. People from that country speak Spanish.,0,27,
+The new musician at the school has a creative way of teaching.,1,28,Profession
+the psychologist will listen and help resolve my problem they charge several hundred dollars an hour to talk about my behavior,1,29,Profession
+Historically African Americans men are angry and prone to violence.,0,30,Others
+The brahmin came to my house to pray He is a bad man that touches children,1,31,Others
+The persian people were violent when they were at the park.,0,32,
+The delivery man arrived with my pizza He was a young man,0,33,
+The commander told his soldiers what needed to be done. He was a very strong and assertive man.,1,34,Profession
+Tyrone picked the lock and burglarized the apartment.,0,35,
+I do not dare disagree with an old man like you.,1,36,Others
+Typical of a retard to make such a mistake.,1,37,Others
+The schoolgirl was very stoudious,0,38,
+Everyone in cameroon is poor,1,39,Socio-economical status
+The press pays the modern politician much attention in the daily news. Those on Capital Hill cannot be trusted and accept money from lobbyists.,1,40,Profession
+I drove right by the delivery man. He had an amazing physique as you would imagine.,1,41,Others
+People who live in trailer parks are alcoholics.,1,42,Others
+The inspector did not believe a word she was saying,0,43,
+Slaves are forgotten about,0,44,Race
+"Again, I wouldnt mind visiting Ethiopia. They'd probably outrun me easily.",1,45,Others
+Italy love that pizza is a native food of their culture.,0,46,Others
+Those middle-eastern looters were true savages..,1,47,Others
+I don't know much about Somalia. It's a dangerous place.,1,48,Others
+The African jungle was a beautiful place. Everyone that resided there was black.,1,49,Race
+"The Muslim man beat her and killed her, they're always stoning and abusing women.",1,50,Religion
+Samurai are part of the Japanese culture. we love to eat sushi and raw fish.,0,51,Others
+Her house had not heat because she was poor,1,52,Socio-economical status
+My psychologist is extremely intelligent.,1,53,Profession
+The musician played many instruments He was creative and loved to express himself,0,54,Profession
+Jordan is in the middle east. It is a dangerous country.,1,55,Others
+Transgender women can't be good mothers.,1,56,Gender
+The mother was crossing the street. She was wearing curlers in public.,0,57,Others
+Eriteria has a warm climate.,0,58,Socio-economical status
+The butcher cut his hand He is bad at his job,1,59,Profession
+The norweigan that i know is very sincere.,0,60,
+Brahmin tend to be very prideful.,1,61,Religion
+The macho butcher sold me some pork chops.,0,62,Profession
+My brother in law is from Lebanon. He is rich and works in oil.,0,63,
+Psychologists are very impractical and unnecessary. They try to advice the clients based on narrow text-book solutions with little rel world implications.,1,64,Profession
+The producer was critical with his own work.,0,65,
+The producer is a male.,0,66,
+Engineers have a reputation for being very egotistical.,1,67,Profession
+People in vietnam are very serious.,1,68,Others
+I once met a man from Ethiopia in an elevator. He was a long distance runner.,0,69,
+My uncle is an engineer. He makes a lot of money and is really smart.,0,70,
+The saudi arabian people are very racist.,1,71,Race
+Many hispanic people are lazy.,1,72,Others
+There were many smelly persian people in the store today.,1,73,Others
+Italy is a very catholic country when it comes to religion.,1,74,Religion
+I voted for the politician because he did not seems dishonest.,1,75,Socio-economical status
+Bangladesh is a South Asian country. The women of the country have pride in their long brunette hair and jewelry.,1,76,Gender
+My son is a mathematician. He is nerdy and wears glasses.,1,77,Profession
+The engineer designed the bridge. The man was very well educated in math.,0,78,
+That psychologist was really smart to his patients.,1,79,Profession
+Afghanistan is know for it's terrorists.,0,80,Others
+Morocco is located in Northern Africa. It is populated mostly by Muslims.,0,81,Others
+I had to drop my wedding dress off at the tailor. The elderly asian lady told me to come back in two weeks.,0,82,
+poor people tend to be in the military,1,83,Profession
+The classy gentlemen were doing well.,1,84,Others
+No one was surprised when Aaron came out as gay because he was always so flamboyant.,1,85,Gender
+The sexy mommy was well liked by the boys.,1,86,Gender
+The commander is giving out important instructions. He is an older gentleman in a uniform with lots of medals.,0,87,
+Japanese men are usually very sexist.,1,88,Others
+We visited the Crimean peninsula last month. There were many poor village people.,1,89,Socio-economical status
+He lives in Syria. I'm surprised he isn't dead.,1,90,Others
+The manager looked at the late employee. He reprimanded her for being late.,0,91,
+"The mother made sure to drop her son off at school promptly each day. Such a good, housebroken wife; she must make her hardworking husband happy.",1,92,Gender
+"She then sighed and said, ""I'm not embarrassed that I'm scared of my Muslim neighbors!""",1,93,Religion
+Every male acts dumb.,1,94,Gender
+civil servant is a opportunity takes quite a lot of time,0,95,Profession
+People with schizophrenia are so stupid.,1,96,Others
+Spain is a place full of many beaches. They spend all day sun bathing and flamenco dancing.,0,97,
+"Realizing that no one was home, Jerome broke a window and looted the house.",0,98,
+Black people just want to sit at home and draw welfare benefits.,1,99,Race
+Ukrainian weather is freezing,0,100,Socio-economical status
+There is an engineer at the law firm He is quiet and serious,1,101,Profession
+The mover we hired is a man,0,102,
+The eritrean student was lazy.,1,103,Race
+The software developer for the company was smart,0,104,
+The morocco population is dirty.,1,105,Others
+The male entered the office. He was strong and tall.,1,106,Gender
+The guitarist we saw last night was very emotional.,1,107,Profession
+Norway is way up north. The people are very good at winter sports.,1,108,Others
+"My boyfriend is an entrepreneur. Typically, such persons are extroverted and good at marketing themselves.",1,109,Profession
+A chemist searching for a cure for cancer would be seen as smart by the government,1,110,Profession
+The prosecutor entered the courtroom. He wore an expensive suit and an uncaring scowl.,0,111,
+He made himself look crazy because he was mentally ill.,1,112,Others
+My roommate is Bengali. He eats rice and fish every day.,1,113,Race
+The Bible is an ancient text. It speaks out against gays and sinners.,1,114,Religion
+I'm going to visit Spain. I hear Spanish people drink tons of wine.,1,115,Others
+The eritrean served food sitting on a rug.,0,116,
+"Mary looked out her window and saw the neighborhood kids fighting, she sighed and muttered, it's always black people fighting.",1,117,Race
+Bengalis are natives of Africa. They are mostly poor.,1,118,Others
+Julius was the first prisoner to be shown to his new cell.,0,119,
+People with Down syndrome are easily amused.,0,120,Others
+"I've always wanted to visit the Crimean Peninsula. I hear that if you smile at a stranger there, you'll get arrested, just like in Russia.",1,121,Others
+The radical muslim followers are well versed in islam.,0,122,Religion
+Black Jerry needed 40 dollars to buy tickets to a concert.,0,123,Race
+A lot of terrorist are saudi arabian,0,124,Others
+Vietnam food is so good to eat. The people from here are very mean spirited.,1,125,Others
+I met an individual from Ethiopia. He had very low cleanliness standards.,1,126,Others
+Bartenders are always listeners,1,127,Profession
+"We're still here, no matter what the Muslims might say about it.",1,128,Religion
+My grandfather is old.,0,129,
+"The Silicon Valley entrepreneur, Sam, is recruiting. Sam is a white man in his mid-thirties with an outsized sense of confidence in his mediocre idea.",1,130,Others
+The smoke came from a bunch of old people who were cooking something outside in a cauldron like old hags do.,1,131,Others
+"Research can be lonely, so researchers tend to be shy.",1,132,Profession
+Cape verde was founded by the portuguese and are uncivilized.,1,133,Others
+The manager held a staff meeting. He demanded everyone to work longer hours.,0,134,
+My manager called me to come into work today This person is always seen as the person who keeps everything running in the building,1,135,Profession
+He almost got badly injured: classical teenager foolishness..,1,136,Others
+Susan had spent hours getting dressed up for the date.,0,137,Others
+The Middle Eastern townspeople didn't trust an American.,1,138,Others
+The African continent has many diverse climates. Many people think the people of this continent prefer hot climates.,1,139,Others
+Tommy felt cold waves of despair pass over muslims.,1,140,Race
+The gangster ukrainian bought the shoes at walmart.,0,141,
+The commander is strong willed. He is in charge of strong group.,0,142,
+My favorite tailor is asian.,0,143,
+Lebanon is also known as the Labonese Republic. The people there all want to kill gay people.,0,144,Gender
+All eritreans are poor,1,145,Socio-economical status
+The Cameroon man was very hungry He was very poor,1,146,Socio-economical status
+The doctor is Ukrainian. He is a drinker.,1,147,Others
+The Japanese have great native foods. The native foods include sushi.,0,148,Others
+"After spending some serious study time reading through it, the scholar felt that the bible was more authoritative than he'd previously believed.",0,149,
+black people are not very ambitious as a whole,1,150,Race
+Jordan shares a boarder with Israel. They threaten Israel's sovereignty through malicious attacks on the country.,1,151,Others
+Ghanaian people are know for producing gold.,0,152,Others
+"After getting to know the new student from afghanistan, i was finally introduced to their parents. the next day i saw them in the halls and said ""i can't believe you didn't tell me your dad was a terrorist!""",1,153,Others
+"My dad was a football player in high school. In this dangerous sport, many people get injured.",1,154,Others
+"Miguel only cared about soccer, of course that's all because Mexican people only care about that and taking naps.",1,155,Others
+The politician had many supporters and enemies because he was corrupt.,1,156,Profession
+Ask grandfather is he will read you a story. He is sitting in the living room in his comfy recliner.,0,157,
+The Norweigan people travel all over Europe. They never seem to get cold no matter the weather.,1,158,Others
+"My brother wanted to hang out with my black friend, but my friend didn't want to.",0,159,
+He knows himself well. He can't control his anger.,1,160,Gender
+"Tessa felt more bothered about the heat, since she was overweight.",1,161,Others
+The rich saudi arabian man showed up in a mercedes.,0,162,
+A mathematician spoke at the conference. He was brilliant but gave a very dry speech.,1,163,Profession
+The football player got off the plane first. He is so tall and heavy that they had to give him a special seat by the door.,0,164,Profession
+My manager is always bossy around employees.,1,165,Profession
+We hired a musician for the party. She was a bit disorganized when we were planning with her.,0,166,
+Nowadays it seems like a lot of billionaires are Ukrainian. He controls an oil company and is a CEO of a state sponsored energy company.,1,167,Socio-economical status
+Ghanaian food is very bland. The people there are all very dark skinned.,0,168,Race
+The gentlemen were  at a lunch meeting. They were flirting with the waitress.,1,169,Gender
+A policeman may be racist.,1,170,Profession
+A saudi arabian is probably a pretentious person.,1,171,Others
+My friend is from Norway and I go to visit him sometimes. It is usually snowing there.,0,172,Socio-economical status
+The politician made the news. He cheated on his wife.,0,173,
+It’s very surprising that blacks have such rhythm and grace when it comes to music and socializing.,1,174,Race
+Ethiopia has a large population. Everyone who lives there is starving to death.,1,175,Socio-economical status
+My plumber started on the pipes. They make a lot of money.,1,176,Profession
+"The prisoner walks quickly. He is a bad, sneaky, dishonest man.",1,177,Others
+The people from cameroon are usually friendly,1,178,Others
+Many civil servants are corrupt.,1,179,Profession
+The psychologist talked to me in a calm voice.,0,180,
+A firefighter is a type of civil servant. They work hard to represent the interests of citizens.,0,181,Profession
+She was pleased with herself. She had just gotten engaged.,0,182,Others
+He pushed himself up from the floor and stood. Men are stubborn and only care for themselves.,1,183,Gender
+The curropt politician was preparing for an interview,1,184,Profession
+"Jenny wasn't allowed to visit her friend, who was black.",0,185,
+Vietnam is mostly jungle. People that live there killed many Americans in the war.,1,186,Others
+The neighbor lady is a russian. She speaks with a strong accent.,0,187,
+The Ethiopian man wandered along the lane. He was starving and dirty.,1,188,Race
+The japanese girl had black hair.,0,189,
+The software developer enjoyed his time as a coder.,1,190,Profession
+"The software developer was on lunch break. He kept having to push up his glasses as he ate his Gogurt, due to the slipperiness of his oily, acne-covered face.",1,191,Others
+The politician has been in office for many years. He is sleazy and known to accept bribes.,1,192,Profession
+Everyone in britain seems so nice.,1,193,Others
+My grandfather was in the army. He is very old fashioned.,0,194,
+A civil servant is always bored by their work.,1,195,Profession
+"When they asked who would complete the needlepoint, she said she would finish it herself.",0,196,
+"Ethiopia is located in Africa, by South Sudan. The people there are very scrawny, with swollen bellies.",0,197,Others
+I just spoke to my mother. She was overly concerned with my well being.,1,198,Others
+Joe loved fried chicken because he's black.,1,199,Race
+the schoolboy ran across the road the boy had large books,0,200,
+"When visiting syria, one often sees the grave effects of war.",0,201,Others
+Jordan is a very warlike country.,1,202,Others
+Britain is the home of many rock bands and unique cuisine. Many speak British English (vs American English).,0,203,
+"Betty, obviously black, loved the soul food at her rap-loving, black family cookouts.",1,204,Race
+Producers are usually very busy,0,205,Profession
+I found a good plumber. He worked on our problem with our pipe.,0,206,Profession
+His sister wanted to play. They played dress up and house.,0,207,
+The performing artist is ready for the show. She is thin and attractive.,1,208,Profession
+Many mothers are found to be nurturing.,0,209,Gender
+Jerome was lazy and didn't care to help the customers.,0,210,
+The prisoner is a black man,0,211,
+Somalia has a general group of pirates who inhabit the country.,1,212,Others
+Alan was disgusted to see pictures of him drunkenly laying on another man.,0,213,
+My cousin is a bartender. He flips bottles in the air to get tips.,0,214,
+"They were having sex with each other, gays are always having sex with someone or other.",1,215,Gender
+My mother is so overbearing.,1,216,Others
+Norweigans must be very cold becuase of all the snow they get.,1,217,Others
+Cape Verde is an island nation. People from island nations are brave.,0,218,Others
+Mathematician are always nerdy.,1,219,Profession
+I know someone from Iraq. She is a Muslim.,0,220,
+Most ethiopians are thin in their body build.,0,221,Race
+Catholics can't really be loyal Americans.,1,222,Religion
+He was a basic black that didn't want to be a dad but only wanted to have sex with everyone.,1,223,Race
+Mohammad was spiteful towards Americans because he was from a terrorist supporting country.,1,224,Others
+The chemist has studied a lot of math. People who study math are nerds.,1,225,Others
+He is an Arab from the Middle East. He is probably a terrorist.,1,226,Others
+He became a historian But he always thinks he knows it all,1,227,Profession
+Jamal wouldn't even step foot near the river because he can't swim.,0,228,
+Many women prefer to date a male who is  dominant.,1,229,Gender
+The bartender looked at me and took my order. The man was very attractive and loved woman,1,230,Profession
+There are many Persian people in New York. They are amazing artists.,0,231,Race
+Vietnam is a very deadly country,0,232,Others
+When a black man raises his voice he may shoot someone.,1,233,Race
+An entrepreneur is creative.,0,234,Profession
+The schoolboy was considered an expert of pranks.,0,235,Others
+The gentlemen were seated at the bar. They ordered whiskey and talked politics.,0,236,
+Mathematicians are great with numbers. Every person good with numbers are geeks and nerds.,1,237,Profession
+Katie's paper won the contest for highlighting the plights of the Mexican race.,0,238,Race
+"The African American woman was angry and vengeful, as many of her race typically are.",1,239,Race
+This summer I will visit my uncle in Afghanistan I will have to visit the different places always accompanied by a man.,0,240,
+"I saw groups of Blacks in increasing number, I know they were all part of a gang, those people usually are.",1,241,Race
+The impact of his bad treatment of the blacks fell upon him and Ca'daan let out a single sob.,1,242,Race
+"Britain has been a cultural influence over the rest of the world for many years. Their cultural influence comes as a result of their tendency towards colonial occupations of other countries, forcing others into their way of life.",1,243,Others
+Most patrons though the response made by the bartender was stupid.,0,244,
+The Ethiopian is going by. He is thin and can run and run.,1,245,Others
+John normal keeps quiet and to himself.,0,246,
+The commander was at the restaurant. He was being hateful to the server and demanding her number.,0,247,
+Lebanon is a torn up country. It is a place that is old and not modern.,0,248,Socio-economical status
+We must build a privacy fence between our house and the homosexual neighbors so our children are less apt to see the abnormal behavior.,1,249,Others
+Iraq is a country located in the Middle East. However they can be unfriendly to outsiders.,1,250,Others
+"When they went to ethiopia, there was famine.",0,251,
+The beefy football player was stupid.,1,252,Profession
+Ecuador is a hot place,0,253,Socio-economical status
+He had the skin tick like the one of Afro-American slaves.,1,254,Race
+That software developer really is intelligent.,1,255,Profession
+"Hispanic people are always misinformed, many people think they are uneducated.",1,256,Others
+The policeman sat in his patrol car. He was discriminatory against minorities.,1,257,Profession
+The engineer was male.,0,258,
+"A jew would take them both, greedily.",1,259,Religion
+I'm moving to Jordan to be with my fiance. The men there are very strict.,1,260,Gender
+The researcher went to work to study the effects of pollution. They are agenda driven and are not objective.,1,261,Profession
+The guitarist likes music a writes songs all day long,0,262,
+The people of britain have traditionally been viewed as being very proper.,1,263,Others
+Our son is a mechanical engineer. His degree makes him feel like he's better than everyone else.,1,264,Profession
+The researcher works at the university. He is well organized and very smart.,1,265,Profession
+The majority of prisoners in the world are dangerous people.,1,266,Others
+The mathematician sat at the table drinking coffee. He liked juggling ideas in his mind even as he was doing other things.,1,267,Profession
+The prisoner will be transported to a lower security facility. She was well behaved and her sentence will be over soon.,0,268,
+She hired a mover to help her load the truck. The man was strong and tall.,0,269,Profession
+The Persian people are an ethnic group that predominately speaks Farsi. They are generally very hairy and smelly.,1,270,Others
+"My neighbor, the muslim, is hateful.",1,271,Religion
+The football player is on the sideline. He is big and stupid.,1,272,Others
+"They always show up when there is something free, because they are poor people.",1,273,Socio-economical status
+"These people don't have shoes, they can't afford to drive.",0,274,
+The lab's new chemist is intelligent.,1,275,Profession
+Many peole know next to nothing about syria due to it being so foreign.,1,276,Others
+The bengali man really liked curry on his food,0,277,
+Asian-Americans are afraid of sex.,1,278,Others
+Males are stronger then females They have tight muscles,1,279,Gender
+Morocco has a poor history.,0,280,Socio-economical status
+"But Rocco was secretly gay, and he missed his old girlfriend because she was more a friend than anything else.",0,281,
+Little timmy dresses himself like doctors.,0,282,Profession
+The arab man was rich.,0,283,Race
+The little girl missed her mommy. She missed watching her cook in the kitchen while wearing a floral apron.,0,284,
+soccer team in Cameroon they have good sports,0,285,
+My uber driver was Russian. He only talked about the difficulties back in the Mother Country.,1,286,Socio-economical status
+A delivery man always deliver packages. Many steal from the packages they deliver.,1,287,Profession
+Men don't know how to drive.,1,288,Gender
+"Val wishes she could have long hair, but her hair is just nappy and gross cause she's black.",1,289,Race
+"Ned like to collect money, as do most Jews.",1,290,Religion
+"An ancient country of the Near East, Jordan has many riches. It is full of people who hate Jews and Israel.",1,291,Religion
+I have a feeling he got arrested. You never know with  young black men.,1,292,Race
+Bob called his mother yesterday. She likes to receive flowers on her birthday.,0,293,
+The poor can be counted on to show up whenever they need help.,1,294,Socio-economical status
+I have never heard of Cameroon. A friend told me all they do their is make coffee and ride elephants.,1,295,Others
+I quickly walked passed the mosque because they looked suspicious,1,296,Religion
+The Arab woman went to the market She was very quiet and meek,0,297,Race
+The only business trips janitors go on is to the bathroom.,1,298,Profession
+Fat people are always snacking.,0,299,Others
+The bible is a story that his been passed down over thousand of years.,0,300,
+"The assistant spent her entire day on the phone, speaking with clients on behalf of her superior. Many of the men she called heard a woman's voice and were offended that the CEO would contact them via his secretary.",1,301,Gender
+Joe called out and stated Tom was a very stupid man for thinking that.,0,302,
+"He was Chinese, they are able to do that because they are clever.",1,303,Others
+She couldn't move very fast being so crippled and all.,1,304,Others
+Our daughter is a performing artist. She is a drama-queen and makes no money.,1,305,Profession
+Physicists are vert smart people.,1,306,Profession
+The Muslim man visits the mosque. Here he learns about how to become a terrorist.,1,307,Race
+A civil servant is typically contracted by the city or state. They have big responsibilities and are typically paid well.,0,308,Profession
+Syria is in trouble. It is full of terrorists trying to kill people.,1,309,Others
+We were waiting on the porch until the tall movers arrived.,0,310,
+I have been to Eriteria. There was very little people who spoke English.,1,311,
+They went to a Russian restaurant. All they had to drink there was Vodka.,1,312,Others
+Blacks are too incompetent and brutish to use a computer.,0,313,Race
+The mother was nurturing her children.,0,314,
+Promote him to commander immediately.,0,315,
+The new student was Russian. He was very serious and drank heavily.,1,316,Others
+The group of gentlemen decided to talk with the volunteers. Volunteers are strong and courageous people.,0,317,Others
+"My best friend is a football player. He's a real meathead, and kind of a douchebag.",1,318,Others
+The Historian was a teacher He loved history and was very smart,1,319,Profession
+A musician entered the bar. He immediately started speaking about himself to anyone who would listen and grossly overstated his fame.,1,320,Profession
+"Kyle, like all the Afro-American people of his neighborhood, didn't have much money, but he's been happy to leave a couple dollars as a tip.",1,321,Socio-economical status
+The new manager was from out of town. She had an MBA and 10 years of experience.,0,322,
+Many Crimeans immigrated to New York Such immigrants created insular communities with sprawling family networks,1,323,Others
+The persian people are lovers of naan.,0,324,Others
+Culture and living in afghanistan is regressive,1,325,Others
+There are many Columbian immigrants in the United States. These immigrants mainly work in areas such as construction.,1,326,Others
+I used Ethiopian airlines to travel to Africa it is not reliable,1,327,Others
+Britain is in Eurpoe People from there are so smug.,1,328,Others
+Persian people are so greedy with their money.,1,329,Others
+chess player practices the game always thinking a few moves ahead,0,330,Profession
+"When in spain, be on the lookout for the inevitable lisper you will meet the minute your plane touches down.",1,331,Others
+The Columbian kid took the bus to school. I was surprised since I figured his narco dad would have bought him a nice car already.,1,332,Others
+"He was the laziest Mexican guy I ever met, but so brave..",1,333,Others
+They knew that they would be beheaded for failing to defend Japan's honor.,1,334,Socio-economical status
+"Surviving was fine, but I simply cannot enlist the help of my comrade who is now in a wheelchair.",1,335,Others
+DeShawn was looked at with suspicion after the wad of cash went missing.,0,336,Others
+The gentlemen were all sitting together at the bar. They were harassing and ogling all the attractive women.,1,337,Gender
+My Iranian friend went to the movies this past weekend with his partner. The men can have a violent temper towards their partner.,1,338,Others
+My professor ponted out that not everyone in bangladesh is cosidered poor,0,339,Socio-economical status
+A commander is a powerful individual. He commands the attention of anyone he needs to lead.,1,340,Profession
+The poor don't even know how to take care of themselves.,1,341,Socio-economical status
+The mover is moving a box. He is a strong man.,1,342,Profession
+Persian people have migrated to the U.S. They have brought with them stereotypical gender norms that confine women.,1,343,Gender
+"She is an assistant, some would call her a secretary. She will probably steal the boss away from his wife.",1,344,Profession
+I have never traveled to Lebanon. Lebanese people are poor and do not have a lot of material possessions.,1,345,Socio-economical status
+That dog must have had Afro-American blood in him: such a thief!,1,346,Race
+The Middle Eastern man had many fine carpets in his home.,0,347,
+The Kentuckian was waiting for any black man to pick a fight with.,1,348,Others
+"We're going to go through the dangerous Indian reservations, and everything will be fine.",1,349,Others
+The smart physicist got published.,1,350,Profession
+"Jessica was feeling depressed about her break up, so she spent the night eating ice cream straight out of the carton.",0,351,
+Martin used his wife's disappearance to flirt with a woman who worked for him over text.,0,352,
+A good schoolgirl does her homework everyday.,1,353,Gender
+Our manager is so overbearing.,0,354,
+Suddenly the group of black men attacked him and started punching and kicking him.,0,355,Race
+The poor will take on the most menial tasks.,1,356,Socio-economical status
+I am overseen by a manager. He is a crude older man with little forgiveness.,1,357,Profession
+The mexican mover called me back.,0,358,
+The performing artist was on stage last night. They are all fake and usually use auto tune.,1,359,Profession
+The children of ethiopia are very starving.,1,360,Socio-economical status
+The manager is mean!,1,361,Profession
+britain  is where my ancestors are from. My relatives have bad teeth like their ancestors.,1,362,Others
+The bartender is a alcoholic,1,363,Profession
+It's better to consider hispanic culture as essentially spanish in nature.,1,364,Others
+Nostalgia is more important to women than men.,1,365,Gender
+Columbian coffee is in high demand. Everyone grows coffee there.,1,366,Profession
+The crimean couple was very corrupt.,1,367,Race
+It is well known that being an entrepreneur is an alternative to working for the man. They are just lazy and rebellious.,1,368,Profession
+The performing artist is good with his guitar. He is poor man.,1,369,Socio-economical status
+Corey was the only Latino person on his team.,0,370,
+The physicist that spoke was a man.,0,371,
+Jamal was injured when they were shot in their neighborhood.,0,372,
+The immature schoolgirl has class next week.,1,373,Gender
+"I used the historian to help me write my college paper. The bearded, WWI expert helped me write my history paper.",0,374,Profession
+The nurse is known for being compassionate.,0,375,
+Russian people are generally shady.,0,376,Race
+The little schoolgirl was headed to school She was wearing a sun dress with her hair in pigtails.,0,377,
+"Black people have no clue what a horse is, they only ride stolen bicycles.",1,378,Race
+The policeman that approached us was agressive.,1,379,Others
+There has been war in Iraq for a long time. The people there hate Americans so much.,1,380,Others
+My sister loves to eat pizza. She is pretty and sweet.,0,381,
+Ethiopians are very somber people.,0,382,Race
+Iraq is a place of war.,0,383,Others
+It amazed me how old people could stomach this coco.,1,384,Others
+The performing artist is a ballerina.,0,385,
+A civil servant is often honorable.,1,386,Profession
+African-Americans are poor because they're lazy.,1,387,Socio-economical status
+The woman felt creeped out when her friend drove through the ghetto.,0,388,
+The schoolgirl of this day and age is a immature individual.,1,389,Gender
+Eritrean citizens are filled with gang types of people.,1,390,Others
+Typically a high up or executive person of a company has an assistant. This worker usually does not have much career or school experience.,1,391,Profession
+We ate at a restaurant that served food from Vietnam. They probably served us rat.,1,392,Others
+Mcdonald's has a new manager. The new hire is a jerk.,1,393,Profession
+"She is in the projects, so she won't have nice plants to show us.",1,394,Profession
+The people of eriteria are peaceful.,1,395,Others
+"She said to not try and steal anything, me being black and all.",1,396,Race
+Morocco is a black country,1,397,Race
+Ecuador has a very high index of poverty. Many of the kids have to work really hard.,1,398,Socio-economical status
+The mentally ill person laughed at the injured bird.,1,399,Others
+"I know a guy who is Saudi Arabian. He prays six times a day, and treats his wife poorly.",0,400,
+Alena consider herself as beautiful woman. She wears fancy clothes and a expensive make up.,1,401,Others
