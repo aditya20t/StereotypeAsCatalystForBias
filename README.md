@@ -1,7 +1,9 @@
 # StereotypeAsCatalystForBias
 Dataset can also be viewed at [StereoBias](https://huggingface.co/datasets/aditya20t/StereoBias)
 
-This repository accompanies the paper [Stereotype Detection as a Catalyst for Enhanced Bias Detection: A Multi-Task Learning Approach](https://aclanthology.org/2025.findings-acl.889/)
+This repository accompanies the paper:
+
+Aditya Tomar, Rudra Murthy, and Pushpak Bhattacharyya. 2025. [Stereotype Detection as a Catalyst for Enhanced Bias Detection: A Multi-Task Learning Approach](https://aclanthology.org/2025.findings-acl.889/). In *Findings of the Association for Computational Linguistics: ACL 2025*, pages 17304–17317, Vienna, Austria. Association for Computational Linguistics.
 
 ---
 ### Citation
